@@ -3,12 +3,12 @@ package model.entities;
 
 import model.enums.Color;
 
-public class Rectangle extends AbstractShape {
+public class Retangle extends AbstractShape {
 
 	private Double width;
 	private Double height;
 
-	public Rectangle(Color color, Double width, Double height) {
+	public Retangle(Color color, Double width, Double height) {
 		super(color);
 		this.width = width;
 		this.height = height;
